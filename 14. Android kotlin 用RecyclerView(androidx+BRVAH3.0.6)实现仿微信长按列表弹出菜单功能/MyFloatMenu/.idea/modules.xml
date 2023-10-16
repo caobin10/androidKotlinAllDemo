@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyFloatMenu.iml" filepath="$PROJECT_DIR$/.idea/modules/MyFloatMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MyFloatMenu.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MyFloatMenu.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MyFloatMenu.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MyFloatMenu.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MyFloatMenu.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MyFloatMenu.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MyFloatMenu.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MyFloatMenu.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/menu/MyFloatMenu.menu.iml" filepath="$PROJECT_DIR$/.idea/modules/menu/MyFloatMenu.menu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/menu/MyFloatMenu.menu.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/menu/MyFloatMenu.menu.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/menu/MyFloatMenu.menu.main.iml" filepath="$PROJECT_DIR$/.idea/modules/menu/MyFloatMenu.menu.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/menu/MyFloatMenu.menu.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/menu/MyFloatMenu.menu.unitTest.iml" />
+    </modules>
+  </component>
+</project>

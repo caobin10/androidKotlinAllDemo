@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyApplication3</string>
+
+    <string name="checked">√</string>
+
+    <string name="test1">测试1</string>
+    <string name="test2">测试2</string>
+    <string name="test3">测试3</string>
+    <string name="test4">测试4</string>
+    <string name="test5">测试5</string>
+    <string name="test6">测试6</string>
+    <string name="test7">测试7</string>
+    <string name="test8">测试8</string>
+    <string name="test9">测试9</string>
+</resources>

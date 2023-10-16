@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="float_transparent">#00000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="text_color">#575757</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+
+    <color name="red">#ffff0000</color>
+    <color name="white">#ffffffff</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="gray">#ff808080</color>
+    <color name="black">#ff000000</color>
+
+    <color name="gray_lighta">#B6B6B6</color>
+    <color name="gray_lighter">#E0E0E0</color>
+    <color name="gray_lightest">#fff4f6f7</color>
+    <color name="gray_deep">#ff535353</color>
+    <color name="blue_gray">#ff6d849f</color>
+    <color name="red_lighter">#CD5B55</color>
+    <color name="red_dark">#ffb03140</color>
+    <color name="red_lightest">#F27474</color>
+    <color name="white_gray">#fff4f6f7</color>
+    <color name="purple">#ff6f00d2</color>
+    <color name="gray_light">#ffebebeb</color>
+    <color name="blue_deep">#ff33b5e5</color>
+    <color name="blue_dark">#ff33b5e5</color>
+    <color name="blue">#ff3399cc</color>
+
+    <color name="page_load_bc">#99ffffff</color>
+
+
+
+    <color name="transparent">#00000000</color>
+
+    <!-- 特定颜色 -->
+    <color name="bg_head_bar_common">#fff6f6f6</color>
+    <color name="bg_head_bar_blue">@color/bg_head_bar_common</color>
+    <color name="text_head_bar_common">@color/red</color>
+    <color name="text_login_blue">#ff35b4eb</color>
+
+
+    <color name="body_text_color_common">@color/black</color>
+
+
+    <color name="head_bar_divider_color_type1">#C0C0C0</color>
+
+
+
+    <!-- Button相关颜色 -->
+    <color name="button_bg_gray_normal">#D0D0D0</color>
+    <color name="button_bg_gray_pressed">#B6B6B6</color>
+    <color name="button_bg_blue_normal">#AEDEF4</color>
+    <color name="button_bg_blue_pressed">#96BFD2</color>
+    <color name="button_bg_red_normal">#DD6B55</color>
+    <color name="button_bg_red_pressed">#CD5B55</color>
+    <color name="button_text_color_common">@color/white</color>
+
+
+
+    <!-- Temp -->
+    <color name="line_top_color">#ffe0dcd5</color>
+    <color name="gray_for_hit">#ff959595</color>
+    <color name="blue_sea">#ff73a7fa</color>
+    <color name="red_light">#ffff4444</color>
+    <color name="green_light">#ff99cc00</color>
+    <color name="orange_light">#ffffbb33</color>
+    <color name="blue_light">#ff33b5e5</color>
+
+    <color name="sel_value">#ff6d849f</color>
+</resources>

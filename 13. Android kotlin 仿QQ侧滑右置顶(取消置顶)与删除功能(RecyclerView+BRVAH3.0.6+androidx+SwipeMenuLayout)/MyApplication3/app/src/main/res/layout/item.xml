@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.ljp.swipemenu.SwipeMenuLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_menu_layout"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/white"
+    app:isClickMenuAndClose="false"
+    app:isEnableLeftMenu="false"
+    app:isEnableSwipe="true"
+    app:isOpenChoke="true"
+    tools:ignore="MissingDefaultResource">
+
+   <!--<color name="white">#FFFFFFFF</color>-->
+
+    <RelativeLayout
+        android:id="@+id/ll_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <!--也可以是复杂的item布局-->
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_toFirst"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:background="#2196F3"
+        android:gravity="center"
+        android:text="顶置"/>
+
+    <TextView
+        android:id="@+id/tv_menu2"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:background="#f00"
+        android:gravity="center"
+        android:text="删除"
+        android:textColor="#fff"/>
+</cn.ljp.swipemenu.SwipeMenuLayout>

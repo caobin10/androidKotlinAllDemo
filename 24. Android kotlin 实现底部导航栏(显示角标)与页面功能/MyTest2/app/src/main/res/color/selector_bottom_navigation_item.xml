@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  <color name="colorAccent">#D82637</color>  -->
+    <item android:color="@color/colorAccent" android:state_checked="true" />
+    <!--  <color name="textColorThird">#9297A2</color>  -->
+    <item android:color="@color/textColorThird" android:state_checked="false" />
+</selector>

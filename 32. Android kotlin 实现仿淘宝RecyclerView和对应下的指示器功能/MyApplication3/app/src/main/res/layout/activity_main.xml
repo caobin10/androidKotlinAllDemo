@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:background="@drawable/shape_indicator_radius_white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:gravity="center">
+
+        <com.example.myapplication3.view.RecyclerViewIndicator
+            android:id="@+id/indicator"
+            android:layout_width="55dp"
+            android:layout_height="4dp" />
+    </LinearLayout>
+</LinearLayout>

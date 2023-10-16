@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下面有四个都是，banner第一个是视频,后面的都是图片,仿京东"
+        android:textColor="@color/red" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1、用ViewPager实现视频图片轮播功能(只能动手滑动，首尾不能滑动，加上自定义指示器)"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2、用RecyclerView实现视频图片轮播功能(动手滑动，向右自动轮播，首尾不能滑动，加上自定义指示器)"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3、用Banner2.1.0实现视频图片轮播功能(无限轮播，自动轮播，动手滑动，直接加上不同的指示器,9种动画)"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4、用Banner2.1.0实现滚动头条(垂直)功能(无限轮播，自动轮播，动手滑动，9种动画)"
+        android:textAllCaps="false" />
+</LinearLayout>

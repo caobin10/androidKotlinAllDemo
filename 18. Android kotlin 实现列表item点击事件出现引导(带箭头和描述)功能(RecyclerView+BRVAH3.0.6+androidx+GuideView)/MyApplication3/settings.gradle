@@ -1,0 +1,3 @@
+rootProject.name = "MyApplication3"
+include ':app'
+include ':guideview'

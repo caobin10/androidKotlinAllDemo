@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path name="external" path="/" />
+    <external-path
+        name="cache"
+        path="cache/" />
+    <external-files-path name="external_file_path" path="." />
+
+    <external-path name="beta_external_path" path="Download/"/>
+
+    <external-path name="beta_external_files_path" path="Android/data/"/>
+
+    <external-cache-path name="external_cache_path" path="."/>
+</paths>

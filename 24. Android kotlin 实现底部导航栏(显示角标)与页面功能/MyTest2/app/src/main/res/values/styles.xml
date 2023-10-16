@@ -1,0 +1,22 @@
+<resources>
+    <!-- Base application theme. -->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorRipple</item><!-- <color name="colorPrimary">#FFFFFF</color> -->
+        <item name="colorPrimaryDark">@color/black</item><!-- <color name="black">#FF000000</color> -->
+        <item name="colorAccent">@color/colorAccent</item><!--<color name="colorAccent">#D82637</color>-->
+        <item name="radioButtonStyle">@style/RadioButton_no</item>
+        <item name="checkboxStyle">@style/CheckBox_no</item>
+    </style>
+
+
+    <style name="RadioButton_no" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="buttonCompat">@null</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="CheckBox_no" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="buttonCompat">@null</item>
+        <item name="android:background">@null</item>
+    </style>
+</resources>

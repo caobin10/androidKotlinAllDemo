@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ripple_item_select2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/node_ll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginRight="@dimen/dp_5"
+            android:textSize="@dimen/sp_15"
+            android:padding="@dimen/dp_8"
+            android:paddingBottom="@dimen/dp_8"
+            android:textColor="@color/black"
+            android:layout_weight="1.0" />
+
+        <ImageView
+            android:id="@+id/ivIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_right_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="@color/veeeeee" />
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_10"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/flFork"
+            android:textColor="#333333"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+        <FrameLayout
+            android:id="@+id/flFork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_10"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true">
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:src="@mipmap/icon_black_fork"
+                android:contentDescription="关闭"/>
+            <!--icon_black_fork，这是在android studio系统中添加资源图标-->
+
+        </FrameLayout>
+    </RelativeLayout>
+    <!--icon_black_fork，这是在android studio系统中添加资源图标-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/veeeeee" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+    <LinearLayout
+        android:id="@+id/ll_dialog_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="@dimen/dp_5"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/fl_dialog_close"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackground">
+
+            <TextView
+                android:id="@+id/tv_dialog_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C0C0C0"
+                android:gravity="center"
+                android:text="@string/confirm"
+                android:textSize="16sp"
+                android:textColor="#000000"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

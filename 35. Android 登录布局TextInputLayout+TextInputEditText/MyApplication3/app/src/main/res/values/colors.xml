@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark">#12b7f5</color>
+    <color name="colorPrimary">#33aaff</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+
+    <color name="v666666">#666666</color>
+    <color name="ff5000">#ff5000</color>
+    <color name="veeeeee">#eeeeee</color>
+    <color name="v333333">#333333</color>
+
+    <color name="line">#fff5f5f5</color>
+
+    <color name="greenPrimary">#4CAF50</color>
+    <color name="greenDark">#388E3C</color>
+    <color name="greenAccent">#8BC34A</color>
+
+    <color name="bg">#F0F0F0</color>
+    <color name="colorRipple">#E2E2E2</color>
+    <color name="bgColorPrimary">#FFFFFF</color>
+
+
+    <color name="black">#000000</color><!--  黑色  -->
+    <color name="white">#FFFFFFFF</color><!--  白色  -->
+    <color name="gray">#959595</color><!--  灰色  -->
+    <color name="light_gray">#E7E7E7</color><!--  浅灰  -->
+<!--    <color name="red">#FF0000</color>&lt;!&ndash;  红色  &ndash;&gt;-->
+    <color name="yellow">#FFC107</color><!--  黄色  -->
+    <color name="purple">#FFBB86FC</color><!--  紫色  -->
+<!--    <color name="orange">#F94E18</color>&lt;!&ndash;  桔色  &ndash;&gt;-->
+    <color name="translucent_red">#20EA5A5A</color> <!--  半透明红  -->
+
+    <color name="orange">#FF8C00</color>
+    <color name="red">#F84728</color>
+<!--    <color name="colorPrimary">#03A9F4</color>-->
+
+</resources>

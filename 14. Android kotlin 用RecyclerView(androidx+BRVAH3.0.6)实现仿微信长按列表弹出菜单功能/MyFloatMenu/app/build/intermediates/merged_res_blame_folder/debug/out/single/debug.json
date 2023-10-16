@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.noober.floatmenu.app-main-16:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.noober.floatmenu.app-main-16:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "com.noober.floatmenu.app-pngs-9:/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.noober.floatmenu.app-pngs-9:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.noober.floatmenu.app-main-16:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.noober.floatmenu.app-main-16:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "com.noober.floatmenu.app-pngs-9:/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.noober.floatmenu.app-main-16:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/drawable_item_bg.xml.flat",
+        "source": "com.noober.floatmenu.app-main-16:/drawable/item_bg.xml"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.noober.floatmenu.app-pngs-9:/drawable-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.noober.floatmenu.app-main-16:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/layout_item.xml.flat",
+        "source": "com.noober.floatmenu.app-main-16:/layout/item.xml"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.noober.floatmenu.app-main-16:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "com.noober.floatmenu.app-pngs-9:/drawable-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "com.noober.floatmenu.app-pngs-9:/drawable-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.noober.floatmenu.app-pngs-9:/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.noober.floatmenu.app-main-16:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/layout_activity_main.xml.flat",
+        "source": "com.noober.floatmenu.app-main-16:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.noober.floatmenu.app-main-16:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.noober.floatmenu.app-main-16:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.noober.floatmenu.app-pngs-9:/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.noober.floatmenu.app-main-16:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.noober.floatmenu.app-merged_res-14:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.noober.floatmenu.app-main-16:/mipmap-xhdpi/ic_launcher.png"
+    }
+]

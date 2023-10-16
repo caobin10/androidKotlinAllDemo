@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.noober.floatmenu:common:1.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8cfb36254fda3ff988b7fb2b1ddcb9e7/transformed/jetified-common-1.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8cfb36254fda3ff988b7fb2b1ddcb9e7/transformed/jetified-common-1.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8cfb36254fda3ff988b7fb2b1ddcb9e7/transformed/jetified-common-1.0.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.noober.floatmenu/common/1.0.4/6dafdea6685c13ded83f97e161e0778ea8e8c094/common-1.0.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.noober.floatmenu/common/1.0.4/b4166674828c746b8506f94dcb143ab70e990676/common-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

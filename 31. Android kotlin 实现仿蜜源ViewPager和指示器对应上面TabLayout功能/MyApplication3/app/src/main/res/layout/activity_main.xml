@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:background="@drawable/shape_indicator_radius_white"
+    android:padding="10dp">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        app:elevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tablayout"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:overScrollMode="never"
+                app:tabContentStart="10dp"
+                app:tabIndicator="@drawable/tab_indicator"
+                app:tabIndicatorColor="@color/yellow"
+                app:tabMode="scrollable"
+                app:tabRippleColor="@android:color/transparent"
+                app:tabSelectedTextColor="@color/black"
+                app:tabTextColor="@color/gray">
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="热销好货" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="图文直播" />
+
+            </com.google.android.material.tabs.TabLayout>
+
+            <!--  app:tabBackground="@color/yellow"
+                  app:tabTextAppearance="@style/TabLayoutTextStyle"-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:text="更多 >" />
+        </RelativeLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_below="@id/bar" />
+
+    <com.example.myapplication3.view.ViewPagerIndicator
+        android:id="@+id/indicator"
+        android:layout_width="40dp"
+        android:layout_height="5dp"
+        android:layout_below="@id/viewPager"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

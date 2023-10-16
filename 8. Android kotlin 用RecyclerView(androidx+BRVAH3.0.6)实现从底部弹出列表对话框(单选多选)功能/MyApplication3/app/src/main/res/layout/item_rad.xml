@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:gravity="center">
+
+    <!--<color name="v666666">#666666</color>-->
+    <TextView
+        android:id="@+id/tvName"
+        android:text="text"
+        android:textColor="@color/v666666"
+        android:textSize="15sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="8dp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="8dp" />
+
+    <TextView
+        android:id="@+id/tvSelected"
+        android:text="@string/checked"
+        android:layout_toEndOf="@+id/tvName"
+        android:textSize="15sp"
+        android:visibility="gone"
+        android:textColor="@color/red"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_toRightOf="@+id/tvName" />
+
+    <!--<color name="veeeeee">#eeeeee</color>-->
+    <View
+        android:background="@color/veeeeee"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+</RelativeLayout>

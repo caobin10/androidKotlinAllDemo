@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:layout_gravity="bottom">
+
+    <LinearLayout
+        android:id="@+id/ll_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_comment"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom"
+            android:background="@color/purple_200"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/et_comment3"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="#DEDEDE"
+                android:text="发条有爱评论"/>
+        </LinearLayout>
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/ll_comment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="45dp"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:background="@color/purple_200"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/et_comment3"-->
+<!--            android:layout_width="350dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="#DEDEDE"-->
+<!--            android:text="发条有爱评论"/>-->
+<!--    </LinearLayout>-->
+</FrameLayout>
